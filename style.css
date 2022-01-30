@@ -378,6 +378,93 @@ html {
     background-color: black;
 }
 
+#projects {
+    padding-top: 18vh;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+.projects {
+    padding: 100px 5vh 0 5vh;
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 3.5rem;
+}
+
+.font {
+    width: 500px;
+    background-color: #2c2f33;
+    padding: 30px 30px 20px 30px;
+    border-radius: 15px;
+}
+
+.justify-left {
+    justify-self: left;
+}
+
+.justify-right {
+    justify-self: right;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-project img {
+    width: 50px;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.desc {
+    padding-left: 15px;
+}
+
+.desc h4 {
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.desc p {
+    color: white;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.languages {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.languages img {
+    vertical-align: middle;
+    width: 50px;
+    padding-right: 15px;
+}
+
+.pb-68 {
+    padding-bottom: 68px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.link {
+    text-decoration: none;
+    color: #5865f2;
+}
+
+.link:hover {
+    color: white;
+}
+
 /* animations */
 
 .hover {
@@ -389,34 +476,11 @@ html {
     transition-duration: 200ms;
 }
 
-/*.reseaux {
-    display: grid;
-    grid-template-columns: repeat(2,minmax(0,1fr));
-    gap: 1rem;
-    padding-top: 5vh;
+.hover-projects {
+    transition: transform 300ms;
 }
 
-.grid-center {
-    justify-content: center;
-    text-align: center;
+.hover-projects:hover {
+    transform: translateY(-15%);
+    transition-duration: 200ms;
 }
-
-.discord {
-    text-align: right;
-}
-
-.discord img {
-    background-color: #5865F2;
-}
-
-.github {
-    text-align: left;
-}
-
-.github img {
-    background-color: white;
-}
-
-.width {
-    width: 35px;
-}*/
