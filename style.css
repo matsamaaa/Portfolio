@@ -309,6 +309,10 @@ html {
     padding: 23vh 16vh 0 16vh;
 }
 
+.pb-15 {
+    padding-bottom: 15vh
+}
+
 .text {
     font-size: 22px;
 }
@@ -376,10 +380,6 @@ html {
 
 .github {
     background-color: black;
-}
-
-#projects {
-    padding-top: 18vh;
 }
 
 .title {
@@ -465,6 +465,48 @@ html {
     color: white;
 }
 
+.skills-font {
+    margin: 0 10% 0 10%;
+    background-color: #2c2f33;
+    padding: 30px 30px 20px 30px;
+    border-radius: 15px;
+    margin-bottom: 60px;
+}
+
+.pb-5 {
+    padding-bottom: 5vh;
+}
+
+.pt-5 {
+    padding-top: 10vh;
+}
+
+.prog {
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon h4 {
+    color: white;
+    font-size: 22px;
+}
+
+.icon img {
+    width: 65px;
+    padding-top: 30px;
+}
+
 /* animations */
 
 .hover {
@@ -483,4 +525,10 @@ html {
 .hover-projects:hover {
     transform: translateY(-15%);
     transition-duration: 200ms;
+}
+
+.skills-font:hover {
+    background:
+        linear-gradient(-45deg,#f7b500,#b620e0,#32c5ff);
+        background-size: 100% 1.5px;
 }
