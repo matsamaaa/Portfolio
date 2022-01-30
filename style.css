@@ -507,6 +507,53 @@ html {
     padding-top: 30px;
 }
 
+#skills {
+    padding-bottom: 5vh;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 20% 5vh 20%;
+    background: linear-gradient(-45deg, #5865F2, #32c5ff);
+    padding: 40px 0 40px 0;
+    border-radius: 30px;
+}
+
+.contact h3 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-size: 32px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.contact button {
+    margin: 0 40% 0 40%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0 10px 0;
+}
+
+.contact a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+
 /* animations */
 
 .hover {
@@ -527,8 +574,15 @@ html {
     transition-duration: 200ms;
 }
 
+.hover-contact {
+    transition: transform 300ms;
+}
+
+.hover-contact:hover {
+    transform: translateY(-9%);
+    transition-duration: 200ms;
+}
+
 .skills-font:hover {
-    background:
-        linear-gradient(-45deg,#f7b500,#b620e0,#32c5ff);
-        background-size: 100% 1.5px;
+    background: linear-gradient(-45deg,#f7b500,#b620e0,#32c5ff);
 }
