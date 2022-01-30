@@ -296,11 +296,11 @@ html {
 }
 
 .description h1 {
-    font-size: 50px;
+    font-size: 55px;
 }
 
 .description h2 {
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .grid {
@@ -348,3 +348,75 @@ html {
 .about-img {
     text-align: center;
 }
+
+.reseaux {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    vertical-align: middle;
+}
+
+.width {
+    width: 30px;
+    vertical-align: middle;
+}
+
+.border {
+    border-radius: 999999px;
+}
+
+.p-5 {
+    padding: 5px
+}
+
+.discord {
+    background-color: #5865F2;
+}
+
+.github {
+    background-color: black;
+}
+
+/* animations */
+
+.hover {
+    transition: transform 300ms;
+}
+
+.hover:hover {
+    transform: translateY(-25%);
+    transition-duration: 200ms;
+}
+
+/*.reseaux {
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 1rem;
+    padding-top: 5vh;
+}
+
+.grid-center {
+    justify-content: center;
+    text-align: center;
+}
+
+.discord {
+    text-align: right;
+}
+
+.discord img {
+    background-color: #5865F2;
+}
+
+.github {
+    text-align: left;
+}
+
+.github img {
+    background-color: white;
+}
+
+.width {
+    width: 35px;
+}*/
