@@ -253,12 +253,12 @@ html, body {
     border-bottom: 1px solid rgb(228, 90, 132, 0.6);
 }
 
-.nav-links {
+.navbar {
     position: relative;
     text-align: center;
 }
 
-.nav-style li {
+.navbar li {
     display: inline;
 }
 
@@ -272,13 +272,13 @@ html, body {
     margin-right: 30px;
 }
 
-.nav-style a {
+header a {
     color: white;
     text-decoration: none;
     font-size: 17px;
 }
 
-.nav-style a:hover{
+header a:hover{
     color: #E45A84;
 }
 
@@ -559,6 +559,62 @@ footer {
     padding-bottom: 10px;
 }
 
+/* navbar to phone*/
+
+.hamburger {
+    display: none;
+}
+
+.hamburger ul {
+    list-style: none;
+    padding-top: 15px;
+}
+
+.hamburger-menu li {
+    text-align: left;
+    padding-left: 6px;
+}
+
+.hamburger-menu a {
+    font-size: 22px;
+}
+
+.hamburger-button {
+    cursor: pointer;
+}
+
+.hamburger-button div {
+    width: 35px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 6px;
+    transition-duration: 0.4s;
+}
+
+.open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+    transition-duration: 300ms;
+}
+
+.open .bar2 {
+    opacity: 0;
+}
+
+.open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+    transition-duration: 300ms;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+.open .hamburger-menu {
+    display: block;
+}
+
 /* phone */
 
 @media screen and (max-width: 1200px) {
@@ -626,6 +682,18 @@ footer {
 
     .contact {
         margin: 0 10% 5vh 10%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .navbar {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
     }
 
 }
